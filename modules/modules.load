@@ -91,6 +91,7 @@ spi-msm-geni.ko
 phy-msm-snps-hs.ko
 phy-msm-ssusb-qmp.ko
 dwc3-msm.ko
+usb_f_gsi.ko
 ucsi_qti_glink.ko
 pm8941-pwrkey.ko
 i2c-msm-geni.ko
