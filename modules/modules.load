@@ -124,6 +124,7 @@ governor_msm_adreno_tz.ko
 qcom-spmi-adc5.ko
 slimbus.ko
 slim-qcom-ngd-ctrl.ko
+snd-usb-audio-qmi.ko
 q6_pdr_dlkm.ko
 q6_notifier_dlkm.ko
 snd_event_dlkm.ko

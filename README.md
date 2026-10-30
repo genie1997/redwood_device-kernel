@@ -16,7 +16,7 @@ The dtb rides in vendor_boot (`BOARD_INCLUDE_DTB_IN_BOOTIMG`, header v3); it is 
 `Image`. The modules keep their signature, so they must not be stripped again
 (`BOARD_DO_NOT_STRIP_VENDOR_RAMDISK_MODULES`).
 
-    Image sha256 016cf4ede3af566294f6120af8e5329b6e35de8fb7fa1bc8d8b41b156089c7fa
+    Image sha256 92e493b7e464dc14663a76c8ce0a4d4a3032483ea8598389014ca65030951b43
 
 The headers are the UAPI the platform's vendor HALs are written against, the same set the 5.4
 kernel shipped here, which this kernel serves unchanged. From this tree by `make headers_install`:
