@@ -164,6 +164,7 @@ cdsp-loader.ko
 frpc-adsprpc.ko
 goodix_tee.ko
 xiaomifp.ko
+nxp-nci.ko
 qseecom_dlkm.ko
 qce50_dlkm.ko
 qcedev-mod_dlkm.ko
