@@ -95,6 +95,7 @@ usb_f_gsi.ko
 ucsi_qti_glink.ko
 pm8941-pwrkey.ko
 i2c-msm-geni.ko
+ir-spi.ko
 reboot-mode.ko
 qcom-pon.ko
 qcom-vadc-common.ko
@@ -165,6 +166,7 @@ frpc-adsprpc.ko
 goodix_tee.ko
 xiaomifp.ko
 nxp-nci.ko
+sched-cass.ko
 qseecom_dlkm.ko
 qce50_dlkm.ko
 qcedev-mod_dlkm.ko
