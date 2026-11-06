@@ -14,6 +14,7 @@ qcom_ipc_logging.ko
 qcom_rpmh.ko
 clk-rpmh.ko
 gcc-sc7280.ko
+qcom-cpufreq-hw.ko
 dispcc-sc7280.ko
 icc-bcm-voter.ko
 icc-debug.ko
@@ -77,6 +78,7 @@ bwmon.ko
 memlat.ko
 sps_drv.ko
 smp2p.ko
+qcom_stats.ko
 glink_probe.ko
 smp2p_sleepstate.ko
 altmode-glink.ko
@@ -110,7 +112,6 @@ cpu_voltage_cooling.ko
 thermal-generic-adc.ko
 mi_thermal_interface.ko
 kryo_arm64_edac.ko
-qcom-cpufreq-hw.ko
 qcom-rng.ko
 ion_core.ko
 ion_sys_heap.ko
@@ -167,6 +168,7 @@ goodix_tee.ko
 xiaomifp.ko
 nxp-nci.ko
 sched-cass.ko
+screen-idle.ko
 qseecom_dlkm.ko
 qce50_dlkm.ko
 qcedev-mod_dlkm.ko

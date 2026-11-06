@@ -3,7 +3,7 @@
 Prebuilt kernel for Xiaomi `redwood` (POCO X5 Pro 5G).
 Drop-in for the device tree at `device/xiaomi/redwood-kernel`.
 
-    6.12.92-Vajra-Neo-1.2
+    6.12.96-Vajra-Neo-2.0
 
 - `Image`: kernel (android16-6.12), picked up by `LOCAL_KERNEL` in device.mk
 - `dtb/`: Yupik SoC base dtb, `BOARD_PREBUILT_DTBIMAGE_DIR`; mkbootimg takes it as `--dtb`
@@ -16,7 +16,7 @@ The dtb rides in vendor_boot (`BOARD_INCLUDE_DTB_IN_BOOTIMG`, header v3); it is 
 `Image`. The modules keep their signature, so they must not be stripped again
 (`BOARD_DO_NOT_STRIP_VENDOR_RAMDISK_MODULES`).
 
-    Image sha256 02b96399cc6c4a50b8ec3721366dddd5080e1baa516a7dc8f7e17db91c27bed4
+    Image sha256 46c33ede8cbab9821030d50f9cd83317ca921e8e538854d2b1698437361fe5f3
 
 The headers are the UAPI the platform's vendor HALs are written against, the same set the 5.4
 kernel shipped here, which this kernel serves unchanged. From this tree by `make headers_install`:
